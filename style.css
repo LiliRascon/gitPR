@@ -1,0 +1,27 @@
+.page{
+    display: flex;
+    flex-direction: row;    
+    justify-content: center; 
+    margin-top: 20%;   
+}
+
+.head {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;   
+    background: #fc0;
+    height: 100px;
+    position: relative;
+    width: 100px;
+    
+   
+  }
+  .face {
+    font-family: 'courier new', serif;
+    font-size: 2.5em;
+    font-weight: bold;
+    left: 50%;
+    position: absolute;
+    top: 50%;
+    transform: translate(-50%, -60%) rotate(90deg);
+  }
